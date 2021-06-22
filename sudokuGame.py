@@ -9,12 +9,14 @@ class Grid:
     board = []
 
     def stringHelper(string):
+        newList = []
         newString = string[1:-2]
         newString = newString.split(', ')
+        
         for element in newString:
             element = int(element)
-
-        return newString
+            newList.append(element)
+        return newList
 
     with open('mySudokuPuzzle.txt') as f:
         for line in f:
