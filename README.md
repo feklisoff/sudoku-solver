@@ -13,6 +13,6 @@ for i in range(17)
 It represents how many values you want on your board, hence the lower the number the harder the setting.
 
 ## TODO:
-* fix the quitting bug
+* <s>fix the quitting bug</s>
 * add a solution button
 * limit losses to (n)
