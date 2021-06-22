@@ -11,3 +11,8 @@ To change the diffulty, change the integer value on line 30 in _sudokuGen.py_
 for i in range(17)
 ```
 It represents how many values you want on your board, hence the lower the number the harder the setting.
+
+## TODO:
+* fix the quitting bug
+* add a solution button
+* limit losses to (n)
