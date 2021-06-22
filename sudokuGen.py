@@ -44,5 +44,3 @@ def generateSudoku():
     textfile.close()
 
     return grid
-
-generateSudoku()
